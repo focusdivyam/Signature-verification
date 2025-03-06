@@ -9,3 +9,5 @@ Then the K nearest neighbors algorithm finds the K nearest vectors and adds an u
 SigGCN first transforms the images into graph structure data using CNN networks separately then inputs them into a multilayer GCN for graph representation learning to obtain the two signature graph representations individually. 
 Then it measures the distance between the two representations according to the defined metric function, and then compares it with the threshold value for verification.
 
+Accuracy and results: 85.41% on iam-dataset.
+PS: The code provided is independent of any dataset and contains only the algorithm and not the training part
